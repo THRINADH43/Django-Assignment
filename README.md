@@ -11,3 +11,8 @@ Tech Stack: Django Framework, Python
 Database: JSON 
 
 ## To Run This Project
+Step 1: Clone the Repository
+  ```
+  git clone https://github.com/THRINADH43/Django-Assignment.git
+
+  ```
