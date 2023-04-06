@@ -10,5 +10,4 @@ The Code will satisfy the defined requirements.
 Tech Stack: Django Framework, Python
 Database: JSON 
 
-To Run this project
-> 
+## To Run This Project
