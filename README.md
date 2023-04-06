@@ -25,6 +25,8 @@ Step 3: Install the Requirements
 pip install -r  requirements.txt    
 ```
 Step 4: Change Modification in "settings.py" under "Assignment_Django". This step is needed to send mails. Remember google disabled sending 3rd party mails from personal account. So, You have to Configure SMTP provider credentials 
+![image](https://user-images.githubusercontent.com/74821042/230353620-fbc3dd5a-6a6f-4d10-b192-9d429a460d59.png)
+
 
 Step 5: Run the Server
 
