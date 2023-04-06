@@ -16,3 +16,32 @@ Step 1: Clone the Repository
   git clone https://github.com/THRINADH43/Django-Assignment.git
 
   ```
+Step 2: Change Directory to Django-Assignment
+```
+cd Django-Assignment   
+```
+Step 3: Install the Requirements
+```
+pip install -r  requirements.txt    
+```
+Step 4: Change Modification in "settings.py" under "Assignment_Django". This step is needed to send mails. Remember google disabled sending 3rd party mails from personal account. So, You have to Configure SMTP provider credentials 
+
+Step 5: Run the Server
+
+```
+     py manage.py runserver    
+```
+
+Step 6: The Index is Located at:
+```
+http://127.0.0.1:8000/assignment/index/
+```
+step 7: To View the User Data in JSON navigate to:
+```
+http://localhost:8000/assignment/userview/
+```
+
+Step 8: To Login. Use this
+```
+http://127.0.0.1:8000/assignment/logindata/
+```
