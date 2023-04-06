@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <style>
+        .danger{
+            color: red;
+            text-align: center;
+        }
+        .data {
+            text-align: center;
+            left: 250px;
+        }
+    </style>
+</head>
+<body>
+            <form method="post">
+                {% csrf_token %}
+                <div class="data">
+                    {{ form.username.label }}{{ form.username }}<br>
+                    {{ form.mail.label }}{{ form.mail }}<br>
+                    {{ form.password.label }}{{ form.password }}<br>
+                    {{ form.mobile.label }}{{ form.mobile }}<br>
+                    {{ form.address.label }}{{ form.address }}<br>
+                    <input type="submit" value="submit">
+                </div>
+            {% if form.errors %}
+                {% for field, errors in form.errors.items %}
+                  <strong>{{ field }}</strong>: {{ errors|join:", " }}<br>
+                {% endfor %}
+            {% endif %}
+            </form>
+        <h3><a href="http://localhost:8000/assignment/userview">Click Here to See all users</a></h3>
+</body>
+</html>
